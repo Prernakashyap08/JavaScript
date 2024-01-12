@@ -34,3 +34,33 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack => primitive     heap => non primitive
+
+let myName = "prernarani"
+
+let anotherName = myName       // in this it is a primitive data type so it took a copy a original data type i.e myName to anotherName
+anotherName = "prani"
+
+console.log(myName)
+console.log(anotherName);
+
+
+
+let userOne =
+{
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+
+let userTwo = userOne
+userTwo.email = "prerna@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// heap take the reference of the data 
