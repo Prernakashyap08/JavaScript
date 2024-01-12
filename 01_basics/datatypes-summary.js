@@ -63,4 +63,4 @@ userTwo.email = "prerna@google.com"
 console.log(userOne.email);
 console.log(userTwo.email);
 
-// heap take the reference of the data 
+// heap take the reference of the data  so changes is done in original value of the data
