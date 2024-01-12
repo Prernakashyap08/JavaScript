@@ -90,3 +90,53 @@ let someNumber =  33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************operations*************************************************/
+
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2);
+console.log(2/2);
+console.log(2%2);
+
+
+let str1 = "Prerna"
+let str2 = " Rani"
+
+let str3= str1 + str2
+console.log(str3);        // Prerna Rani
+
+
+console.log("1" + 2 ) 
+console.log(1 + "2" )
+console.log("1" + 2 + 2 )    //  o/p => 122
+console.log(1 + 2  + "2")   //  o/p  =>  32
+
+
+console.log(+true);    //  o/p => 1 it is a short of conversion
+
+
+let gameCounter  = 100
+gameCounter++
+console.log(gameCounter);
+
+
